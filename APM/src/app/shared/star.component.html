@@ -1,0 +1,12 @@
+<div class="crop"
+     [style.width.px]="starWidth"     
+     [title]="rating"
+     (click)="onClick()"> <!-- child component içerisinden parenta data gönderirken event i buraya da yazıyoruz -->
+  <div style="width: 75px; height: 100px;">
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+  </div>
+</div>
